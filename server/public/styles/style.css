@@ -5,7 +5,15 @@ body, html {
   font-size: 14px;
   background-color: #F51720;
   color: #F7F7F9;
+}
 
+.parallax {
+  background-image: url(../../pics/freedom-ride.png);
+  min-height: 2000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .instructions .container h1 {
