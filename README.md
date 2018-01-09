@@ -4,7 +4,7 @@ This is the first iteration of my personal webpage. Hosted on Heroku, GitHub Pag
 
 ## Built With
 
-SQL Database, ExpressJS, AngularJS, Node.js, Bootstrap v4, Heroku, GitHub Pages, and AWS.
+SQL Database, Express, AngularJS, Node.js, Bootstrap v4, Heroku, GitHub Pages, and AWS.
  
 ## Getting Started
 
@@ -19,11 +19,11 @@ SQL Database, ExpressJS, AngularJS, Node.js, Bootstrap v4, Heroku, GitHub Pages,
     - Let's Connect
 - Add pictures to backgrounds (temp) w/ parallax like affect
 - Bootstrap UI
-- Refine Look of Pages 
+- Refine look of pages 
 
 ### Prerequisites
 
-Link to software that is required to install the app (e.g. node).
+Link to software that is required to install/run the app.
 
 - [Node.js](https://nodejs.org/en/)
 - [Bootstrap](https://getbootstrap.com/)
@@ -50,6 +50,7 @@ CREATE TABLE "users" (
 
 ## Screen Shot of Project
 
+Coming soon. 
 
 
 ## Documentation
@@ -71,7 +72,7 @@ Link to Scope of project (Google Drive):
 
 ## Deployment
 
-- [] First deploy via Heroku and later through Amazon Web Services.
+- [] First deploy via Heroku, then GitHub Pages and later through Amazon Web Services.
 
 ## Authors
 
