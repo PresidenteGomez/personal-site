@@ -1,29 +1,39 @@
 # Nestor's Page
 
-This is the first iteration of my personal webpage. Hosted on AWS.
+This is the first iteration of my personal webpage. Hosted on Heroku, GitHub Pages, and AWS.
 
 ## Built With
 
-SQL Database, ExpressJS, AngularJS, Node.js, Angular Material, and AWS (potentially).
+SQL Database, ExpressJS, AngularJS, Node.js, Bootstrap v4, Heroku, GitHub Pages, and AWS.
  
 ## Getting Started
 
 - Create a new DB instance
 - Remove current styling
-- Add some flair
-- Create 3 pages
-    - Landing
-    - About
-    - Connect w/ me
-- Add more styling
-- 
+- Create pages
+    - About Me
+    - Software Development
+    - Activism
+    - Résumé
+    - Work
+    - Let's Connect
+- Add pictures to backgrounds (temp) w/ parallax like affect
+- Bootstrap UI
+- Refine Look of Pages 
 
 ### Prerequisites
 
 Link to software that is required to install the app (e.g. node).
 
 - [Node.js](https://nodejs.org/en/)
-- List other prerequisites here
+- [Bootstrap](https://getbootstrap.com/)
+- [Amazon Web Services](https://aws.amazon.com/)
+- [AngularJS](https://angularjs.org/)
+- [Posgres SQL](https://www.postgresql.org/)
+- [Postico](https://eggerapps.at/postico/)
+- [Express](https://expressjs.com/)
+- [Github API](https://developer.github.com/)
+- [Twitter API](https://developer.twitter.com/)
 
 
 ### Installing
@@ -38,36 +48,40 @@ CREATE TABLE "users" (
 );
 ```
 
-## Screen Shot
+## Screen Shot of Project
 
-Include one or two screen shots of your project here (optional). Remove if unused.
+
 
 ## Documentation
 
-Link to a read-only version of your scope document or other relevant documentation here (optional). Remove if unused.
+Link to Scope of project (Google Drive): 
 
 ### Completed Features
 
-High level list of items completed.
-
-- [x] Feature a
-- [x] Feature b
+- [x] Login DB instances
+- [x] 6 Pages
+- [x] Bootstrap UI
+- [] Link Activism news articles into site
+- [] Connect Twitter Card into site
+- [] NodeMailer or something of the like
 
 ### Next Steps
 
-Features that you would like to add at some point in the future.
-
-- [ ] Feature c
+- [] Recreate This Webpage Using ReactJs
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+- [] First deploy via Heroku and later through Amazon Web Services.
 
 ## Authors
 
-* Name of author(s)
+* Nestor Gomez Jimenez with collaboration with wonderful Prime Digital Academy Instructors
 
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
+Hat tip to anyone who's code was used: 
+* Dev Jana
+* Millicent Walsh
+* Kris Szafranski
+* 
