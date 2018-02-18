@@ -90,7 +90,7 @@ body, html {
   background-color: #555;
 }
 .work {
-  background-image: url(../../pics/yellow-work.png);
+  background-image: url(https://storage.googleapis.com/coverr-main/mp4/Hello-World.mp4);
   min-height: 2000px;
   background-attachment: fixed;
   background-position: center;
