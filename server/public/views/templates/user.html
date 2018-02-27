@@ -14,16 +14,30 @@
 </header>
 <main>
     <!-- <div class="work"></div> -->
-    <div class="container">
+    <div class="container" ng-cloak>
         <h1>
             Software Projects:
         </h1>
         <div class="card-deck">
-            <div class="card">
+            <!-- Github Repos: -->
+            <md-content>
+                <md-list>
+                    <md-list-item class="md-3-line" ng-repeat="info in rc.reposData.data">
+                        <div class="md-list-item-text">
+                            <h3>{{info.name}}</h3>
+                            <!-- <p>{{item.notes}}</p> -->
+                        </div>
+                        <md-button class="md-secondary" href="{{info.html_url}}">Go</md-button>
+                        <md-divider ng-if="!$last"></md-divider>
+                    </md-list-item>
+                </md-list>
+            </md-content>
+            <!-- end of Github Repos -->
+            <div class="card" ng-repeat="info in uc.reposData.data">
                 <img class="card-img-top" src="../../pics/cool-moon.png" width="auto" height="150" alt="something for now">
                 <div class="card-block">
-                    <h4 class="card-title">
-                        Software for Everyone!
+                    <h4 class="card-title" ng-click="{{info.html_url}}">
+                       {{info.name}}
                     </h4>
                     <p class="card-text">The work of a sound person who works at night. </p>
                 </div>

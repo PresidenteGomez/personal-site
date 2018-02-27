@@ -4,6 +4,7 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(function($routeProvider, $locationProvider) {
   $locationProvider.hashPrefix('');
   console.log('myApp -- config');
+
   $routeProvider
     .when('/home', {
       templateUrl: '/views/templates/home.html',
@@ -17,10 +18,14 @@ myApp.config(function($routeProvider, $locationProvider) {
       templateUrl: '/views/templates/user.html',
       controller: 'UserController as uc',
       resolve: {
-        getuser : function(UserService){
+        getuser: function (UserService){
           return UserService.getuser();
         }
       }
+    })
+    .when('/user', {
+      templateUrl: '/views/templates/user.html',
+      controller: 'GithubController as gc'
     })
     .when('/info', {
       templateUrl: '/views/templates/info.html',
